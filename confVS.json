@@ -1,0 +1,38 @@
+{
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.fontSize": 16,
+    "redhat.telemetry.enabled": true,
+    "java.debug.settings.console": "internalConsole",
+    "editor.linkedEditing": true,
+    "code-runner.runInTerminal": true,
+    "explorer.compactFolders": false,
+    "cSpell.language": "en,pt_BR",
+    "code-runner.executorMap": {
+        "python": "ccc && python3 -u"
+    },
+    "code-runner.ignoreSelection": true,
+    "python.defaultInterpreterPath": "python",
+    "explorer.confirmDragAndDrop": false,
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "blue"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check",
+            "type": "line"
+        },
+        "FIXME": {
+            "foreground": "black",
+            "iconColour": "yellow",
+            "gutterIcon": true
+        }
+    }
+}
