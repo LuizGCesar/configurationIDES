@@ -5,14 +5,15 @@
     "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontSize": 16,
     "redhat.telemetry.enabled": true,
-    "java.debug.settings.console": "internalConsole",
+    "java.debug.settings.console": "integratedTerminal",
     "editor.linkedEditing": true,
     "code-runner.runInTerminal": true,
     "explorer.compactFolders": false,
     "cSpell.language": "en,pt_BR",
     "editor.fontLigatures": true,
     "code-runner.executorMap": {
-        "python": "clear && python3 -u"
+        "python": "clear && python3 -u",
+        "Java": "clear && integratedTerminal"
     },
     "code-runner.ignoreSelection": true,
     "python.defaultInterpreterPath": "python",
@@ -42,7 +43,7 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
     },
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.rulers": [
         {
             "column": 80,
@@ -104,7 +105,7 @@
         "bash": {
             "path": "bash",
             "env": {
-                "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
+                "JAVA_HOME": "/home/luiz/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"
             },
             "args": [
                 "--rcfile",
@@ -215,5 +216,24 @@
             "path": "zsh"
         }
     },
-    "terminal.integrated.defaultProfile.osx": "JavaSE-21"
+    "terminal.integrated.defaultProfile.osx": "JavaSE-21",
+    "github-actions.workflows.pinned.workflows": [],
+    "shellformat.effectLanguages": [
+        
+        "shellscript",
+        "dockerfile",
+        "dotenv",
+        "hosts",
+        "jvmoptions",
+        "ignore",
+        "gitignore",
+        "properties",
+        "spring-boot-properties",
+        "azcli",
+        "bats"
+    ],
+    "shellformat.useEditorConfig": true,
+    "github.copilot.chat.localeOverride": "pt-br",
+    "inlineChat.accessibleDiffView": "on",
+    "trailing-spaces.backgroundColor": "rgba(255,0,0,0.1)"
 }
